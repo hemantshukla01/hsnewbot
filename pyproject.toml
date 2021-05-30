@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "repl_python3_hsnewbot"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+discord = "^1.0.1"
+flask = "^2.0.1"
+threading-futures = "^1.0"
+line = "^0.8.2"
+mroy-line = "^0.4.2"
+line-bot-sdk = "^1.19.0"
+line-bot-sdk567894 = "^1.5.0"
+line-bot-sdk-extra = "^0.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
